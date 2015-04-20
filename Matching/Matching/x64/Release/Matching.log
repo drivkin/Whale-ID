@@ -1,0 +1,29 @@
+﻿Build started 3/9/2015 12:15:14 PM.
+     1>Project "C:\Users\Dmitriy\Documents\Visual Studio 2010\Projects\Matching\Matching\Matching.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\Matching.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\x64\vc10\..\..\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /errorReport:prompt Matching.cpp /clr:nostdlib 
+         Matching.cpp
+     1>Matching.cpp(321): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Matching.cpp(322): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Matching.cpp(679): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Matching.cpp(702): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dmitriy\Documents\Visual Studio 2010\Projects\Matching\x64\Release\Matching.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x64\vc10\lib opencv_core2410.lib opencv_imgproc2410.lib opencv_highgui2410.lib opencv_ml2410.lib opencv_video2410.lib opencv_features2d2410.lib opencv_calib3d2410.lib opencv_objdetect2410.lib opencv_contrib2410.lib opencv_legacy2410.lib opencv_flann2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\Matching.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Dmitriy\Documents\Visual Studio 2010\Projects\Matching\x64\Release\Matching.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Release\Matching.obj
+         "x64\Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         Matching.vcxproj -> C:\Users\Dmitriy\Documents\Visual Studio 2010\Projects\Matching\x64\Release\Matching.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Dmitriy\Documents\Visual Studio 2010\Projects\Matching\x64\Release\Matching.exe;#1" /manifest x64\Release\Matching.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\Matching.unsuccessfulbuild".
+         Touching "x64\Release\Matching.lastbuildstate".
+     1>Done Building Project "C:\Users\Dmitriy\Documents\Visual Studio 2010\Projects\Matching\Matching\Matching.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.92
